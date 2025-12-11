@@ -10,7 +10,7 @@ Instead, use the sourced shell function as described in [source the shell functi
 
 Install the `switcher` binary with `homebrew`.
 ```
-brew install danielfoehrkn/switch/switch
+brew install academician/switch/switch
 ```
 
 Next, follow [required: source the shell function](#required-source-the-shell-function).
@@ -31,12 +31,12 @@ Next, follow [required: source the shell function](#required-source-the-shell-fu
 Download the switcher binary
 ```sh
 OS=linux                        # Pick the right os: linux, darwin (intel only)
-VERSION=0.9.3                   # Pick the current version.
+VERSION=0.9.4-academician.0                   # Pick the current version.
 
-curl -L -o /usr/local/bin/switcher https://github.com/danielfoehrKn/kubeswitch/releases/download/${VERSION}/switcher_${OS}_amd64
+curl -L -o /usr/local/bin/switcher https://github.com/academician/kubeswitch/releases/download/${VERSION}/switcher_${OS}_amd64
 chmod +x /usr/local/bin/switcher
 ```
-If you are using Windows, go to the release webpage using you browser and download the windows binary: <https://github.com/danielfoehrKn/kubeswitch/releases/>\
+If you are using Windows, go to the release webpage using you browser and download the windows binary: <https://github.com/academician/kubeswitch/releases/>\
 Then copy it to a folder available in your path. To add a folder to your path, you can use the ``Environment Variables`` tool for the Windows' PowerToys: <https://learn.microsoft.com/en-us/windows/powertoys/environment-variables>\
 If you need to add a folder to the path for the current powershell session, you can run ``$env:Path += ';C:\myfolder'``
 
@@ -47,7 +47,7 @@ Next, follow [required: source the shell function](#required-source-the-shell-fu
 ### Option 3 - From source
 
 ```
-go get github.com/danielfoehrkn/kubeswitch
+go get github.com/academician/kubeswitch
 ```
 
 From the repository root run `make build-switcher`.

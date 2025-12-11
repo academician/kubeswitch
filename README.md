@@ -1,8 +1,8 @@
-# Kubeswitch
+# Kubeswitch (academician fork)
 
-![Latest GitHub release](https://img.shields.io/github/v/release/danielfoehrkn/kubeswitch.svg)
-[![Build](https://github.com/danielfoehrKn/kubeswitch/workflows/Build/badge.svg)](https://github.com/danielfoehrKn/switch/actions?query=workflow%3A"Build")
-[![Go Report Card](https://goreportcard.com/badge/github.com/danielfoehrKn/kubeswitch)](https://goreportcard.com/badge/github.com/danielfoehrKn/kubeswitch)
+![Latest GitHub release](https://img.shields.io/github/v/release/academician/kubeswitch.svg)
+[![Build](https://github.com/academician/kubeswitch/workflows/Build/badge.svg)](https://github.com/academician/switch/actions?query=workflow%3A"Build")
+[![Go Report Card](https://goreportcard.com/badge/github.com/academician/kubeswitch)](https://goreportcard.com/badge/github.com/academician/kubeswitch)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 The kubectx for operators.
